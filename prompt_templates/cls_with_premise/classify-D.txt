@@ -1,0 +1,46 @@
+@@system_prompt@@
+
+Given the following argument and definitions, determine which of the fallacies defined below occurs in Premise 3 of the provided argument.
+The argument may contain multiple fallacies. Only detect the most fitting fallacy within Premise 3.
+Explain your decision and conclude with the applied fallacy in a separate line at the end as "Fallacy: <fallacy class>".
+
+Fallacies:
+
+Ambiguity:
+Definition 1: When an unclear phrase with multiple definitions is used within the argument; therefore, does not support the conclusion.
+Definition 2: When the same word (here used also for phrase) is used with two different meanings.
+
+Impossible Expectations:
+Definition 1: Comparing a realistic solution with an idealized one, and discounting or even dismissing the realistic solution as a result of comparing to a “perfect world” or impossible standard, ignoring the fact that improvements are often good enough reason.
+
+False Equivalence:
+Definition 1: Assumes that two subjects that share a single trait are equivalent.
+
+False Dilemma:
+Definition 1: Presents only two alternatives, while there may be another alternative, another way of framing the situation, or both options may be simultaneously viable.
+Definition 2: Making the false assumption that when presented with an either/or possibility, that if one of the options is true that the other one must be false.
+
+Biased Sample Fallacy:
+Definition 1: Drawing a conclusion about a population based on a sample that is biased, or chosen in order to make it appear the population on average is different than it actually is.
+
+Hasty Generalization:
+Definition 1: Drawing a conclusion based on a small sample size, rather than looking at statistics that are much more in line with the typical or average situation.
+
+Causal Oversimplification:
+Definition 1: Post hoc ergo propter hoc - after this therefore because of this. Automatically attributes causality to a sequence or conjunction of events.
+Definition 2: Assumes there is a single, simple cause of an outcome.
+
+Fallacy of Composition:
+Definition 1: Inferring that something is true of the whole from the fact that it is true of some part of the whole.
+Definition 2: Inferring that something is true of one or more of the parts from the fact that it is true of the whole.
+
+Fallacy of Exclusion:
+Definition 1: When only select evidence is presented in order to persuade the audience to accept a position, and evidence that would go against the position is withheld.
+Definition 2: Ignores relevant and significant evidence when inferring to a conclusion.
+Definition 3: Discarding the relevance of Premise 2 within the argument.
+
+Argument:
+Premise 1: "@@p0@@"
+Premise 2: "@@context@@"
+Premise 3: "@@fallacious_premise@@"
+Therefore: "@@claim@@"

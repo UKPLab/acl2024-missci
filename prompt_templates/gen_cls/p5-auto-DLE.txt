@@ -1,0 +1,84 @@
+@@system_prompt@@
+
+Fallacy Inventory:
+
+Ambiguity:
+Definition 1: When an unclear phrase with multiple definitions is used within the argument; therefore, does not support the conclusion.
+Logical Form 1: Claim X is made. Y is concluded based on an ambiguous understanding of X.
+Example 1: It is said that we have a good understanding of our universe.  Therefore, we know exactly how it began and exactly when.
+Definition 2: When the same word (here used also for phrase) is used with two different meanings.
+Logical Form 2: Term X is used to mean Y in the premise. Term X is used to mean Z in the conclusion.
+Example 2: A feather is light. What is light cannot be dark. Therefore, a feather cannot be dark.
+
+Impossible Expectations:
+Definition 1: Comparing a realistic solution with an idealized one, and discounting or even dismissing the realistic solution as a result of comparing to a “perfect world” or impossible standard, ignoring the fact that improvements are often good enough reason.
+Logical Form 1: X is what we have. Y is the perfect situation. Therefore, X is not good enough.
+Example 1: Seat belts are a bad idea. People are still going to die in car crashes.
+
+False Equivalence:
+Definition 1: Assumes that two subjects that share a single trait are equivalent.
+Logical Form 1: X and Y both share characteristic A. Therefore, X and Y are [behave] equal.
+Example 1: They are both Felidae, mammals in the order Carnivora, therefore there's little difference between having a pet cat and a pet jaguar.
+
+False Dilemma:
+Definition 1: Presents only two alternatives, while there may be another alternative, another way of framing the situation, or both options may be simultaneously viable.
+Logical Form 1: Either X or Y is true.
+Example 1: I thought you were a good person, but you weren’t at church today.
+Definition 2: Making the false assumption that when presented with an either/or possibility, that if one of the options is true that the other one must be false.
+Logical Form 2: P or Q could be true. P is true. Therefore, Q is not true.
+Example 2: Bill is 6’11” tall, thin, but muscular.  We know he either is a pro basketball player or a jockey.  We conclude that it is more probable that he is a pro basketball player than a pro basketball player or a jockey.
+
+Biased Sample Fallacy:
+Definition 1: Drawing a conclusion about a population based on a sample that is biased, or chosen in order to make it appear the population on average is different than it actually is.
+Logical Form 1: Sample S, which is biased, is taken from population P. Conclusion C is drawn about population P based on S.
+Example 1: Based on a survey of 1000 American homeowners, 99% of those surveyed have two or more automobiles worth on average $100,000 each.  Therefore, Americans are very wealthy.
+
+Hasty Generalization:
+Definition 1: Drawing a conclusion based on a small sample size, rather than looking at statistics that are much more in line with the typical or average situation.
+Logical Form 1: Sample S is taken from population P. Sample S is a very small part of population P. Conclusion C is drawn from sample S and applied to population P.
+Example 1: My father smoked four packs of cigarettes a day since age fourteen and lived until age sixty-nine.  Therefore, smoking really can’t be that bad for you.
+
+Causal Oversimplification:
+Definition 1: Post hoc ergo propter hoc - after this therefore because of this. Automatically attributes causality to a sequence or conjunction of events.
+Logical Form 1: A is regularly associated with B; therefore, A causes B.
+Example 1: Every time I go to sleep, the sun goes down.  Therefore, my going to sleep causes the sun to set.
+Definition 2: Assumes there is a single, simple cause of an outcome.
+Logical Form 2: X is a contributing factor to Y. X and Y are present. Therefore, to remove Y, remove X.
+Example 2: Smoking has been empirically proven to cause lung cancer. Therefore, if we eradicate smoking, we will eradicate lung cancer.
+
+Fallacy of Composition:
+Definition 1: Inferring that something is true of the whole from the fact that it is true of some part of the whole.
+Logical Form 1: A is part of B. A has property X. Therefore, B has property X.
+Example 1: Hydrogen is not wet.  Oxygen is not wet.  Therefore, water (H2O) is not wet.
+Definition 2: Inferring that something is true of one or more of the parts from the fact that it is true of the whole.
+Logical Form 2:  A is part of B. B has property X. Therefore, A has property X.
+Example 2:  His house is about half the size of most houses in the neighborhood. Therefore, his doors must all be about 3 1/2 feet high.
+
+Fallacy of Exclusion:
+Definition 1: When only select evidence is presented in order to persuade the audience to accept a position, and evidence that would go against the position is withheld.
+Definition 2: Ignores relevant and significant evidence when inferring to a conclusion.
+Logical Form 2: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, person 1 presents only evidence A.
+Example 2: Hydrogen is not wet.  Oxygen is not wet.  Therefore, water (H2O) is not wet.
+Definition 3: Discarding the relevance of Premise 2 within the argument.
+Logical Form 3: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, evidence B is irrelevant to the claim.
+Example 3:  His house is about half the size of most houses in the neighborhood. Therefore, his doors must all be about 3 1/2 feet high.
+
+Task:
+Carefully analyze the following fallacious argument:
+
+    Premise 1: "@@p0@@"
+    Premise 2: "@@context@@"
+    Premise 3: ""
+    Therefore: "@@claim@@"
+
+Both Premise 1 and Premise 2 originate from a reputable scientific document.
+The claim is deduced from information presented in Premise 1.
+However, Premise 2 introduces doubt, suggesting that the claim is an invalid conclusion based on the scientific document.
+
+Your objective is to precisely identify and articulate the fallacious reasoning in Premise 3 (the fallacious premise). This reasoning must robustly support the claim, ensuring that Premise 2 does not undermine the claim as a valid conclusion.
+Consider only fallacies from the provided fallacy inventory.
+Present each fallacious premise alongside the applied fallacy class in this format:
+
+    Fallacious Premise: <fallacious premise>; Applied Fallacy Class: <applied fallacy class>.
+
+If multiple fallacies are applicable, list them in order of relevance.

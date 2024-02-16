@@ -1,0 +1,15 @@
+@@system_prompt@@
+
+Given the following argument and definitions with their logical forms and examples, determine which of the fallacies defined below occurs in Premise 3 of the provided argument.
+The argument may contain multiple fallacies. Only detect the most fitting fallacy within Premise 3.
+Explain your decision and conclude with the applied fallacy in a separate line at the end as "Fallacy: <fallacy class>".
+
+Fallacies:
+Ambiguity, Impossible Expectations, False Equivalence, False Dilemma, Biased Sample Fallacy, Hasty Generalization, Causal Oversimplification, Fallacy of Composition, Fallacy of Exclusion:
+
+
+Argument:
+Premise 1: "@@p0@@"
+Premise 2: "@@context@@"
+Premise 3: "@@fallacious_premise@@"
+Therefore: "@@claim@@"

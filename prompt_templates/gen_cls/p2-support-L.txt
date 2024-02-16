@@ -1,0 +1,58 @@
+@@system_prompt@@
+
+Fallacy Inventory:
+
+Ambiguity:
+Logical Form 1: Claim X is made. Y is concluded based on an ambiguous understanding of X.
+Logical Form 2: Term X is used to mean Y in the premise. Term X is used to mean Z in the conclusion.
+
+Impossible Expectations:
+Logical Form 1: X is what we have. Y is the perfect situation. Therefore, X is not good enough.
+
+False Equivalence:
+Logical Form 1: X and Y both share characteristic A. Therefore, X and Y are [behave] equal.
+
+False Dilemma:
+Logical Form 1: Either X or Y is true.
+Logical Form 2: P or Q could be true. P is true. Therefore, Q is not true.
+
+Biased Sample Fallacy:
+Logical Form 1: Sample S, which is biased, is taken from population P. Conclusion C is drawn about population P based on S.
+
+Hasty Generalization:
+Logical Form 1: Sample S is taken from population P. Sample S is a very small part of population P. Conclusion C is drawn from sample S and applied to population P.
+
+Causal Oversimplification:
+Logical Form 1: A is regularly associated with B; therefore, A causes B.
+Logical Form 2: X is a contributing factor to Y. X and Y are present. Therefore, to remove Y, remove X.
+
+Fallacy of Composition:
+Logical Form 1: A is part of B. A has property X. Therefore, B has property X.
+Logical Form 2:  A is part of B. B has property X. Therefore, A has property X.
+
+Fallacy of Exclusion:
+Logical Form 1: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, person 1 presents only evidence A.
+Logical Form 2: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, evidence B is irrelevant to the claim.
+
+Task:
+Examine the following fallacious argument:
+
+Premise 1: "@@p0@@"
+Premise 2: "@@context@@"
+Premise 3: ""
+Therefore: "@@claim@@"
+
+
+Premises 1 and 2 are sourced from the same credible scientific document.
+The claim is based on the information in Premise 1.
+However, Premise 2 suggests that the claim is an invalid conclusion from the scientific document.
+
+Your task is to identify and verbalize the fallacious reasoning in Premise 3 (the fallacious premise) that is necessary to support the claim, despite the conflicting information in Premise 2.
+This reasoning should be strong enough to support the claim and counter any uncertainties raised by Premise 2.
+Only consider fallacies from the provided fallacy inventory.
+
+Present each fallacious premise along with the applied fallacy class in this format:
+
+    Fallacious Premise: <fallacious premise>; Applied Fallacy Class: <applied fallacy class>.
+
+If there are multiple applicable fallacies, list them in order of relevance.

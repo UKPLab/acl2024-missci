@@ -1,0 +1,9 @@
+{
+  "gpt-4": {
+      "AZURE_OPENAI_ENDPOINT": "<endpoint>",
+      "OPENAI_API_KEY": "<openai api key>"
+  },
+  "llama2": {
+    "directory": "<directory-to--llama2-wkith-subdirectories-per-sizes>"
+  }
+}

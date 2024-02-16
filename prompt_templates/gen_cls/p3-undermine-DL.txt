@@ -1,0 +1,72 @@
+@@system_prompt@@
+
+Fallacy Inventory:
+
+Definition 1: When an unclear phrase with multiple definitions is used within the argument; therefore, does not support the conclusion.
+Logical Form 1: Claim X is made. Y is concluded based on an ambiguous understanding of X.
+Definition 2: When the same word (here used also for phrase) is used with two different meanings.
+Logical Form 2: Term X is used to mean Y in the premise. Term X is used to mean Z in the conclusion.
+
+Impossible Expectations:
+Definition 1: Comparing a realistic solution with an idealized one, and discounting or even dismissing the realistic solution as a result of comparing to a “perfect world” or impossible standard, ignoring the fact that improvements are often good enough reason.
+Logical Form 1: X is what we have. Y is the perfect situation. Therefore, X is not good enough.
+
+False Equivalence:
+Definition 1: Assumes that two subjects that share a single trait are equivalent.
+Logical Form 1: X and Y both share characteristic A. Therefore, X and Y are [behave] equal.
+
+False Dilemma:
+Definition 1: Presents only two alternatives, while there may be another alternative, another way of framing the situation, or both options may be simultaneously viable.
+Logical Form 1: Either X or Y is true.
+Definition 2: Making the false assumption that when presented with an either/or possibility, that if one of the options is true that the other one must be false.
+Logical Form 2: P or Q could be true. P is true. Therefore, Q is not true.
+
+Biased Sample Fallacy:
+Definition 1: Drawing a conclusion about a population based on a sample that is biased, or chosen in order to make it appear the population on average is different than it actually is.
+Logical Form 1: Sample S, which is biased, is taken from population P. Conclusion C is drawn about population P based on S.
+
+Hasty Generalization:
+Definition 1: Drawing a conclusion based on a small sample size, rather than looking at statistics that are much more in line with the typical or average situation.
+Logical Form 1: Sample S is taken from population P. Sample S is a very small part of population P. Conclusion C is drawn from sample S and applied to population P.
+
+Causal Oversimplification:
+Definition 1: Post hoc ergo propter hoc - after this therefore because of this. Automatically attributes causality to a sequence or conjunction of events.
+Logical Form 1: A is regularly associated with B; therefore, A causes B.
+Definition 2: Assumes there is a single, simple cause of an outcome.
+Logical Form 2: X is a contributing factor to Y. X and Y are present. Therefore, to remove Y, remove X.
+
+Fallacy of Composition:
+Definition 1: Inferring that something is true of the whole from the fact that it is true of some part of the whole.
+Logical Form 1: A is part of B. A has property X. Therefore, B has property X.
+Definition 2: Inferring that something is true of one or more of the parts from the fact that it is true of the whole.
+Logical Form 2:  A is part of B. B has property X. Therefore, A has property X.
+
+Fallacy of Exclusion:
+Definition 1: When only select evidence is presented in order to persuade the audience to accept a position, and evidence that would go against the position is withheld.
+Definition 2: Ignores relevant and significant evidence when inferring to a conclusion.
+Logical Form 2: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, person 1 presents only evidence A.
+Definition 3: Discarding the relevance of Premise 2 within the argument.
+Logical Form 3: Evidence A and evidence B is available. Evidence A supports the claim of person 1. Evidence B supports the counterclaim of person 2. Therefore, evidence B is irrelevant to the claim.
+
+Task:
+Examine the following fallacious argument:
+
+Premise 1: "@@p0@@"
+Premise 2: "@@context@@"
+Premise 3: ""
+Therefore: "@@claim@@"
+
+
+Premises 1 and 2 are sourced from the same credible scientific document.
+The claim is based on the information in Premise 1.
+However, Premise 2 suggests that the claim is an invalid conclusion from the scientific document.
+
+Your task is to identify and verbalize the fallacious reasoning in Premise 3 (the fallacious premise) that is necessary to support the claim, despite the conflicting information in Premise 2.
+This reasoning should effectively support the claim, ensuring that Premise 2 does not undermine the claim as a valid conclusion.
+Only consider fallacies from the provided fallacy inventory.
+
+Present each fallacious premise along with the applied fallacy class in this format:
+
+    Fallacious Premise: <fallacious premise>; Applied Fallacy Class: <applied fallacy class>.
+
+If there are multiple applicable fallacies, list them in order of relevance.
