@@ -171,7 +171,7 @@ To parse and evaluate the results, run:
 
 
 ## Fallacy classification (without premise)
-To prompt LLMs to classify the fallacies without fallacious premises run the `` script:
+To prompt LLMs to classify the fallacies without fallacious premises run the `run-fallacy-classification-without-premise.py` script:
 ````shell
  python run-fallacy-classification-without-premise.py llama <prompt-template> <model-size> [<seed>] [--dev]
  python run-fallacy-classification-without-premise.py gpt4  <prompt-template> [--dev] [--overwrite]
