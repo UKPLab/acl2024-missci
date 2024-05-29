@@ -13,7 +13,7 @@ Contact person: [Max Glockner](mailto:max.glockner@tu-darmstadt.de)
 
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
-Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
+This repository contains Missci, a novel dataset with reconstructed fallacious arguments that misrepresent scientific publications. We provide all necessary code to reproduce and evaluate our results and use LLMs in reconstructing the fallacious arguments. Don't hesitate to send us an e-mail or report an issue, if you have further questions.
 
 # Setup
 Follow these instructions to recreate thy python environment used for all our experiments. All experiments ran on A100 GPUs.
