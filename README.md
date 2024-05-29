@@ -1,6 +1,6 @@
 ![Task Example](figure.png)
 
-# Dismantling the Misleading Narratives: Reconstructing the Fallacies in Misrepresented Science
+# <span style="font-variant:small-caps;">Missci</span>: Reconstructing the Fallacies in Misrepresented Science
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.10-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
@@ -204,7 +204,7 @@ To parse and evaluate the results, run:
 When using our dataset or code, please cite us with
 ```bibtex 
 @article{glockner2024missci,
-    title = "Dismantling the Misleading Narratives: Reconstructing the Fallacies in Misrepresented Science",
+    title = "Missci: Reconstructing the Fallacies in Misrepresented Science",
     author = "Glockner, Max and Hou, Yufang and Nakov, Preslav and Gurevych, Iryna", 
     journal= "arXiv preprint TBA",
     year = "2024",
