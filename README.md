@@ -1,6 +1,6 @@
 ![Task Example](figure.png)
 
-# <span style="font-variant:small-caps;">Missci</span>: Reconstructing the Fallacies in Misrepresented Science
+# <span style="font-variant:small-caps;">Missci</span>: Reconstructing the Fallacies in Misrepresented Science (ACL 2024)
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.10-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
