@@ -204,11 +204,10 @@ To parse and evaluate the results, run:
 When using our dataset or code, please cite us with
 ```bibtex 
 @article{glockner2024missci,
-    title = "Missci: Reconstructing the Fallacies in Misrepresented Science",
-    author = "Glockner, Max and Hou, Yufang and Nakov, Preslav and Gurevych, Iryna", 
-    journal= "arXiv preprint TBA",
-    year = "2024",
-    url = "tba",
+  title={Missci: Reconstructing Fallacies in Misrepresented Science},
+  author={Glockner, Max and Hou, Yufang and Nakov, Preslav and Gurevych, Iryna},
+  journal={arXiv preprint arXiv:2406.03181},
+  year={2024}
 }
 ```
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
