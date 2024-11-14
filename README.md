@@ -203,11 +203,23 @@ To parse and evaluate the results, run:
 # Citation
 When using our dataset or code, please cite us with
 ```bibtex 
-@article{glockner2024missci,
-  title={Missci: Reconstructing Fallacies in Misrepresented Science},
-  author={Glockner, Max and Hou, Yufang and Nakov, Preslav and Gurevych, Iryna},
-  journal={arXiv preprint arXiv:2406.03181},
-  year={2024}
+@inproceedings{glockner-etal-2024-missci,
+    title = "Missci: Reconstructing Fallacies in Misrepresented Science",
+    author = "Glockner, Max  and
+      Hou, Yufang  and
+      Nakov, Preslav  and
+      Gurevych, Iryna",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.240",
+    doi = "10.18653/v1/2024.acl-long.240",
+    pages = "4372--4405"
 }
 ```
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
